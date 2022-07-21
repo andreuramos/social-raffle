@@ -29,25 +29,4 @@
 }
 
 .App-main {
-  display: flex;
-}
-
-.start-button {
-  background-color: var(--primary);
-  padding: 2em;
-  font-size: large;
-  border-radius: .5em;
-  color: white;
-  cursor: pointer;
-  font-weight: bold;
-  border-bottom: solid 5px var(--primary-dark);
-}
-
-.start-button:hover {
-  background-color: var(--primary-light);
-}
-
-.start-button:active {
-  background-color: var(--primary);
-  top: -0.5em;
 }

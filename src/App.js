@@ -1,4 +1,5 @@
 import './App.css';
+import Button from "./Shared/Button";
 
 function App() {
   return (
@@ -8,11 +9,9 @@ function App() {
           <p className="App-description">Description of what this application does with some fancy words that makes people want to click on the START button.</p>
       </header>
         <main className="App-main">
-            <a
-                className="start-button"
-            >
-                Start
-            </a>
+            <Button
+                text="Start"
+            />
       </main>
     </div>
   );
